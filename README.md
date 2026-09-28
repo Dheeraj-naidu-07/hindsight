@@ -19,6 +19,20 @@
 
 ---
 
+## HackWithHyderabad 3.0: Content Strategy Agent
+
+> **AI Content Strategy Agent with Persistent Hindsight Memory**
+> Tracks published content, analyzes deterministic social media performance, detects content gaps, and uses Hindsight persistent semantic memory to continuously refine and adapt future content strategy over time.
+
+- **Backend Architecture**: [docs/BACKEND.md](docs/BACKEND.md)
+- **Hindsight Integration**: [docs/HINDSIGHT.md](docs/HINDSIGHT.md)
+- **REST API Reference**: [docs/API.md](docs/API.md)
+- **End-to-End Data Flow**: [docs/DATA_FLOW.md](docs/DATA_FLOW.md)
+- **Quickstart**: `python -m uvicorn api.app:app --reload`
+- **Run Tests**: `python -m pytest tests/ social_analytics/tests/ -v`
+
+---
+
 ## What is Hindsight?
 
 Hindsight™ is an agent memory system built to create smarter agents that learn over time. Most agent memory systems focus on recalling conversation history. Hindsight is focused on making agents that learn, not just remember.
